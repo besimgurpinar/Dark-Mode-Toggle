@@ -1,0 +1,30 @@
+
+    body {
+      background-color: #fff;
+      color: #333;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .dark-mode {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      cursor: pointer;
+    }
+
+    .toggle:before {
+      content: "☀️";
+      font-size: 24px;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
+
+    .toggle.dark:before {
+      content: "🌙";
+    }
+ 
